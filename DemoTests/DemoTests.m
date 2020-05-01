@@ -26,10 +26,9 @@
     // 这是一个单元测试方法
 }
 
-- (void)testAnother {
+- (void)anotherMethod {
     // 这不是单元测试方法
 }
-
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.

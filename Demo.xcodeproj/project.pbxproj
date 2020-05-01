@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A115D830245BC578003C54CF /* CUserItemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A115D82F245BC578003C54CF /* CUserItemTest.m */; };
+		A115D839245BCCF0003C54CF /* CDemoUtilTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A115D838245BCCF0003C54CF /* CDemoUtilTest.m */; };
+		A115D841245BD0DD003C54CF /* CUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = A115D83E245BD0DD003C54CF /* CUserView.m */; };
+		A115D842245BD0DD003C54CF /* CUserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A115D83F245BD0DD003C54CF /* CUserItem.m */; };
+		A115D843245BD0DD003C54CF /* CDemoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A115D840245BD0DD003C54CF /* CDemoUtil.m */; };
 		F006F68623A628050075F760 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F006F68523A628050075F760 /* AppDelegate.m */; };
 		F006F68923A628050075F760 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F006F68823A628050075F760 /* SceneDelegate.m */; };
 		F006F68C23A628050075F760 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F006F68B23A628050075F760 /* ViewController.m */; };
@@ -33,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A115D82F245BC578003C54CF /* CUserItemTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUserItemTest.m; sourceTree = "<group>"; };
+		A115D838245BCCF0003C54CF /* CDemoUtilTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDemoUtilTest.m; sourceTree = "<group>"; };
+		A115D83B245BD0DD003C54CF /* CUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUserView.h; sourceTree = "<group>"; };
+		A115D83C245BD0DD003C54CF /* CDemoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDemoUtil.h; sourceTree = "<group>"; };
+		A115D83D245BD0DD003C54CF /* CUserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUserItem.h; sourceTree = "<group>"; };
+		A115D83E245BD0DD003C54CF /* CUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUserView.m; sourceTree = "<group>"; };
+		A115D83F245BD0DD003C54CF /* CUserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUserItem.m; sourceTree = "<group>"; };
+		A115D840245BD0DD003C54CF /* CDemoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDemoUtil.m; sourceTree = "<group>"; };
 		F006F68123A628050075F760 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F006F68423A628050075F760 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F006F68523A628050075F760 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,6 +98,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A115D82E245BC578003C54CF /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				A115D82F245BC578003C54CF /* CUserItemTest.m */,
+				A115D838245BCCF0003C54CF /* CDemoUtilTest.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		A115D83A245BD0DD003C54CF /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				A115D83D245BD0DD003C54CF /* CUserItem.h */,
+				A115D83F245BD0DD003C54CF /* CUserItem.m */,
+				A115D83B245BD0DD003C54CF /* CUserView.h */,
+				A115D83E245BD0DD003C54CF /* CUserView.m */,
+				A115D83C245BD0DD003C54CF /* CDemoUtil.h */,
+				A115D840245BD0DD003C54CF /* CDemoUtil.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		F006F67823A628050075F760 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +151,7 @@
 				F006F68B23A628050075F760 /* ViewController.m */,
 				F0D6F1D02430757900FA86F9 /* CDataUtil.h */,
 				F0D6F1D12430757900FA86F9 /* CDataUtil.m */,
+				A115D83A245BD0DD003C54CF /* Example */,
 				F006F68D23A628050075F760 /* Main.storyboard */,
 				F006F69023A628070075F760 /* Assets.xcassets */,
 				F006F69223A628070075F760 /* LaunchScreen.storyboard */,
@@ -131,6 +167,7 @@
 				F04C71DD23C1EC4E008289DF /* DemoTests.m */,
 				F0D6F1D52430758600FA86F9 /* CDataUtilTest.m */,
 				F0D6F1D32430758600FA86F9 /* CDataUtilTest2.m */,
+				A115D82E245BC578003C54CF /* Example */,
 				F006F6A223A628070075F760 /* Info.plist */,
 			);
 			path = DemoTests;
@@ -273,7 +310,10 @@
 				F006F68623A628050075F760 /* AppDelegate.m in Sources */,
 				F006F69723A628070075F760 /* main.m in Sources */,
 				F0D6F1D22430757900FA86F9 /* CDataUtil.m in Sources */,
+				A115D843245BD0DD003C54CF /* CDemoUtil.m in Sources */,
 				F006F68923A628050075F760 /* SceneDelegate.m in Sources */,
+				A115D841245BD0DD003C54CF /* CUserView.m in Sources */,
+				A115D842245BD0DD003C54CF /* CUserItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +323,9 @@
 			files = (
 				F0D6F1D82430758600FA86F9 /* CDataUtilTest.m in Sources */,
 				F0D6F1D62430758600FA86F9 /* CDataUtilTest2.m in Sources */,
+				A115D839245BCCF0003C54CF /* CDemoUtilTest.m in Sources */,
 				F04C71DE23C1EC4E008289DF /* DemoTests.m in Sources */,
+				A115D830245BC578003C54CF /* CUserItemTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

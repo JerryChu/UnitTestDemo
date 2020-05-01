@@ -27,6 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param count 数字
 + (NSString *)descForCount2:(NSInteger)count;
 
+// 将threshold作为参数传入，避免内部产生依赖
++ (NSString *)descForCount2:(NSInteger)count withThreshold:(NSInteger)threshold;
+
 @end
 
 NS_ASSUME_NONNULL_END

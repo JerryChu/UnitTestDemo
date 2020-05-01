@@ -48,7 +48,20 @@
     return desc;
 }
 
-
+// 使用依赖注入的思想，避免方法内部出现对其他方法/模块的依赖
++ (NSString *)descForCount2:(NSInteger)count withThreshold:(NSInteger)threshold {
+    NSString *desc = nil;
+    if (count > 99999) {
+        desc = [[NSString alloc] initWithFormat:@"%@万", @(count / 10000)];
+    } else if (count > 9999) {
+        desc = [[NSString alloc] initWithFormat:@"%.1f万", count / 10000.f];
+    } else if (count > threshold) {
+        desc = [[NSString alloc] initWithFormat:@"%@", @(count)];
+    } else {
+        desc = @"";
+    }
+    return desc;
+}
 
 + (NSInteger)countThreshold {
     return 10; // count from server

@@ -16,8 +16,11 @@
 @implementation CDataUtilTest
 
 - (void)testDescForCount {
+    // 准备
     NSInteger count = 0;
+    // 调用
     NSString *desc = [CDataUtil descForCount:count];
+    // 断言
     XCTAssertEqualObjects(desc, @"0");
 }
 
